@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		23ECAC811FF152C800FFAB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECAC801FF152C800FFAB50 /* AppDelegate.swift */; };
-		23ECAC831FF152C800FFAB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECAC821FF152C800FFAB50 /* ViewController.swift */; };
-		23ECAC861FF152C800FFAB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23ECAC841FF152C800FFAB50 /* Main.storyboard */; };
 		23ECAC881FF152C800FFAB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23ECAC871FF152C800FFAB50 /* Assets.xcassets */; };
 		23ECAC8B1FF152C800FFAB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23ECAC891FF152C800FFAB50 /* LaunchScreen.storyboard */; };
-		23ECAC961FF152C800FFAB50 /* ExpanableDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECAC951FF152C800FFAB50 /* ExpanableDemoTests.swift */; };
-		23ECACA11FF152C800FFAB50 /* ExpanableDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECACA01FF152C800FFAB50 /* ExpanableDemoUITests.swift */; };
+		23ECACB01FF15C8200FFAB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECACAE1FF15C8200FFAB50 /* ViewController.swift */; };
+		23ECACB11FF15C8200FFAB50 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23ECACAF1FF15C8200FFAB50 /* ViewController.xib */; };
+		23ECACB31FF160A000FFAB50 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECACB21FF1609700FFAB50 /* ExampleData.swift */; };
+		23ECACBF1FF1623E00FFAB50 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECACBE1FF1623E00FFAB50 /* Extensions.swift */; };
+		23ECACCB1FF1837E00FFAB50 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECACC91FF1837E00FFAB50 /* CollapsibleTableViewHeader.swift */; };
+		23ECACCC1FF1837E00FFAB50 /* CollapsibleTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23ECACCA1FF1837E00FFAB50 /* CollapsibleTableViewHeader.xib */; };
+		23ECACCF1FF1888F00FFAB50 /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECACCD1FF1888F00FFAB50 /* CollapsibleTableViewCell.swift */; };
+		23ECACD01FF1888F00FFAB50 /* CollapsibleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23ECACCE1FF1888F00FFAB50 /* CollapsibleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +40,19 @@
 /* Begin PBXFileReference section */
 		23ECAC7D1FF152C800FFAB50 /* ExpanableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpanableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23ECAC801FF152C800FFAB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23ECAC821FF152C800FFAB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		23ECAC851FF152C800FFAB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23ECAC871FF152C800FFAB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23ECAC8A1FF152C800FFAB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23ECAC8C1FF152C800FFAB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23ECAC911FF152C800FFAB50 /* ExpanableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpanableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23ECAC951FF152C800FFAB50 /* ExpanableDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpanableDemoTests.swift; sourceTree = "<group>"; };
-		23ECAC971FF152C800FFAB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23ECAC9C1FF152C800FFAB50 /* ExpanableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpanableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23ECACA01FF152C800FFAB50 /* ExpanableDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpanableDemoUITests.swift; sourceTree = "<group>"; };
-		23ECACA21FF152C800FFAB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23ECACAE1FF15C8200FFAB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23ECACAF1FF15C8200FFAB50 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		23ECACB21FF1609700FFAB50 /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		23ECACBE1FF1623E00FFAB50 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		23ECACC91FF1837E00FFAB50 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		23ECACCA1FF1837E00FFAB50 /* CollapsibleTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollapsibleTableViewHeader.xib; sourceTree = "<group>"; };
+		23ECACCD1FF1888F00FFAB50 /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
+		23ECACCE1FF1888F00FFAB50 /* CollapsibleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollapsibleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				23ECAC7F1FF152C800FFAB50 /* ExpanableDemo */,
-				23ECAC941FF152C800FFAB50 /* ExpanableDemoTests */,
-				23ECAC9F1FF152C800FFAB50 /* ExpanableDemoUITests */,
 				23ECAC7E1FF152C800FFAB50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,9 +101,9 @@
 		23ECAC7F1FF152C800FFAB50 /* ExpanableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				23ECACB51FF160B200FFAB50 /* ExpanableView */,
+				23ECACB41FF160A300FFAB50 /* ViewController */,
 				23ECAC801FF152C800FFAB50 /* AppDelegate.swift */,
-				23ECAC821FF152C800FFAB50 /* ViewController.swift */,
-				23ECAC841FF152C800FFAB50 /* Main.storyboard */,
 				23ECAC871FF152C800FFAB50 /* Assets.xcassets */,
 				23ECAC891FF152C800FFAB50 /* LaunchScreen.storyboard */,
 				23ECAC8C1FF152C800FFAB50 /* Info.plist */,
@@ -107,22 +111,26 @@
 			path = ExpanableDemo;
 			sourceTree = "<group>";
 		};
-		23ECAC941FF152C800FFAB50 /* ExpanableDemoTests */ = {
+		23ECACB41FF160A300FFAB50 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				23ECAC951FF152C800FFAB50 /* ExpanableDemoTests.swift */,
-				23ECAC971FF152C800FFAB50 /* Info.plist */,
+				23ECACAE1FF15C8200FFAB50 /* ViewController.swift */,
+				23ECACAF1FF15C8200FFAB50 /* ViewController.xib */,
 			);
-			path = ExpanableDemoTests;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		23ECAC9F1FF152C800FFAB50 /* ExpanableDemoUITests */ = {
+		23ECACB51FF160B200FFAB50 /* ExpanableView */ = {
 			isa = PBXGroup;
 			children = (
-				23ECACA01FF152C800FFAB50 /* ExpanableDemoUITests.swift */,
-				23ECACA21FF152C800FFAB50 /* Info.plist */,
+				23ECACBE1FF1623E00FFAB50 /* Extensions.swift */,
+				23ECACB21FF1609700FFAB50 /* ExampleData.swift */,
+				23ECACCD1FF1888F00FFAB50 /* CollapsibleTableViewCell.swift */,
+				23ECACCE1FF1888F00FFAB50 /* CollapsibleTableViewCell.xib */,
+				23ECACC91FF1837E00FFAB50 /* CollapsibleTableViewHeader.swift */,
+				23ECACCA1FF1837E00FFAB50 /* CollapsibleTableViewHeader.xib */,
 			);
-			path = ExpanableDemoUITests;
+			path = ExpanableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23ECAC8B1FF152C800FFAB50 /* LaunchScreen.storyboard in Resources */,
+				23ECACD01FF1888F00FFAB50 /* CollapsibleTableViewCell.xib in Resources */,
+				23ECACCC1FF1837E00FFAB50 /* CollapsibleTableViewHeader.xib in Resources */,
+				23ECACB11FF15C8200FFAB50 /* ViewController.xib in Resources */,
 				23ECAC881FF152C800FFAB50 /* Assets.xcassets in Resources */,
-				23ECAC861FF152C800FFAB50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23ECAC831FF152C800FFAB50 /* ViewController.swift in Sources */,
+				23ECACCB1FF1837E00FFAB50 /* CollapsibleTableViewHeader.swift in Sources */,
+				23ECACBF1FF1623E00FFAB50 /* Extensions.swift in Sources */,
+				23ECACCF1FF1888F00FFAB50 /* CollapsibleTableViewCell.swift in Sources */,
+				23ECACB01FF15C8200FFAB50 /* ViewController.swift in Sources */,
 				23ECAC811FF152C800FFAB50 /* AppDelegate.swift in Sources */,
+				23ECACB31FF160A000FFAB50 /* ExampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23ECAC961FF152C800FFAB50 /* ExpanableDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23ECACA11FF152C800FFAB50 /* ExpanableDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		23ECAC841FF152C800FFAB50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23ECAC851FF152C800FFAB50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		23ECAC891FF152C800FFAB50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

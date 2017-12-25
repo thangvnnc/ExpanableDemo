@@ -76,6 +76,7 @@ extension ViewController: UITableViewDelegate
         
         header.titleLabel.text = sections[section].name
         header.arrowLabel.text = ">"
+        
         header.setCollapsed(sections[section].collapsed)
         
         header.section = section
